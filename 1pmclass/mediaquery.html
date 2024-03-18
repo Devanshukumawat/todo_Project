@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: aquamarine;
+            width: 100%;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+        }
+        .main>.box {
+            background-color: rgb(29, 133, 223);
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+
+
+
+
+
+        @media screen and (max-width:500px) {
+            p{
+                color: brown;
+            }
+            .main{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum ea voluptates et id, dolorem nulla molestias blanditiis iste voluptate nam eos suscipit porro at officia inventore corporis pariatur minima! Corrupti temporibus modi a ratione eos, expedita, odio blanditiis facere harum non deserunt nobis. Deserunt at deleniti, sequi consectetur sint cupiditate doloremque. Exercitationem, aliquid unde animi adipisci maiores consectetur! Similique ipsa accusamus dicta ullam et cum nulla, labore molestiae asperiores officiis nesciunt in reprehenderit doloremque facilis dolorem aliquid, explicabo harum fugiat cumque commodi unde rem. Mollitia, libero illo reiciendis rem temporibus dolores voluptatibus ad assumenda, voluptate repellendus sapiente laudantium earum praesentium?</p>
+
+    <div class="main">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
